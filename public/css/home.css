@@ -17,12 +17,12 @@
 /* Custom properties */
 :root {
   --dark-color: black;
-  --darkGrey: crimson;
+  --darkGrey: #383838;
   --light-color: #fff;
-  --main-color: rgba(147, 147, 147, 0.979);
-  --secondary-color: rgb(172, 98, 0);
-  --alternate: rgba(154, 204, 187, 0.726);
-  --alternate1: teal;
+  --secondary-color: crimson;
+  --main-color: teal;
+  --alternate1: rgba(154, 204, 187, 0.726);
+  --alternate: rgba(147, 147, 147, 0.979);
   --blue-color: rgb(2, 42, 102);
   --secondary-background-color: rgb(28, 28, 28);
   --transparent-light-color: rgba(255, 255, 255, 0.05);
@@ -115,8 +115,9 @@ button.white {
   font-family: "Poppins", sans-serif;
   position: relative;
   width: 100%;
-  height: 380px;
+  height: 350px;
   overflow: hidden;
+  margin-top: 3rem;
 }
 
 .newMusicBox img {
@@ -139,15 +140,15 @@ button.white {
   overflow: hidden;
   background: linear-gradient(
     8deg,
-    hsla(200, 17%, 14%, 0.897) 14%,
-    hsla(310, 17%, 14%, 0.733) 44%
+    hsla(171, 25%, 20%, 0.897) 14%,
+    hsla(46, 17%, 35%, 0.733) 44%
   );
 }
 
 .newMusicText .musicTitle {
   background-color: #1a1a1a;
   padding: 2px 8px;
-  font-size: 2rem;
+  font-size: 1.4rem;
   font-weight: 600;
   color: var(--secondary-color);
 }
