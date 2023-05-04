@@ -154,7 +154,8 @@ button.white {
 }
 
 .newMusicText .genre {
-  font-size: 1.3rem;
+  font-size: 1rem;
+  text-align: center;
   font-weight: 600;
   margin-bottom: 0.5rem;
   color: var(--light-color);
@@ -168,7 +169,7 @@ button.white {
   outline: none;
   cursor: pointer;
   background: var(--main-color);
-  color: var(--secondary-color);
+  color: var(--light-color);
   text-transform: capitalize;
   font-size: 18.2px;
   border-radius: 5px;
@@ -177,7 +178,7 @@ button.white {
 
 .shopButton:hover {
   color: var(--main-color);
-  background: var(--secondary-color);
+  background: var(--light-color);
 }
 
 .newMusicBox .newMusicText1 {
@@ -195,19 +196,20 @@ button.white {
   overflow: hidden;
   background: linear-gradient(
     8deg,
-    hsla(201, 22%, 29%, 0.596) 14%,
-    hsla(311, 17%, 43%, 0.685) 44%
+    hsla(182, 22%, 29%, 0.596) 14%,
+    hsla(0, 17%, 43%, 0.685) 44%
   );
 }
 
 .newMusicText1 .musicTitle {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 600;
   color: var(--light-color);
 }
 
 .newMusicText1 .genre {
-  font-size: 1.3rem;
+  font-size: 1rem;
+  text-align: center;
   font-weight: 600;
   margin-bottom: 0.5rem;
   color: var(--light-color);
