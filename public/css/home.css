@@ -5,6 +5,7 @@
 @import "./footer.css";
 @import "./products.css";
 @import "./modal.css";
+@import "./responsive.css";
 
 * {
   margin: 0;
