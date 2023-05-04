@@ -432,10 +432,6 @@
     width: 30%;
   }
 
-  .newsletter .signUpFrom {
-    width: 70%;
-  }
-
   footer .footCol {
     margin-bottom: 20px;
   }
@@ -456,9 +452,6 @@
     margin: 0;
   }
 
-  .foot {
-    margin-bottom: -30px;
-  }
   .swiper-button-next,
   .swiper-button-prev {
     display: none;
@@ -680,14 +673,6 @@
     margin: 10px;
   }
 
-  .newsletter {
-    padding: 40px 20px;
-  }
-
-  .newsletter .signUpFrom {
-    width: 100%;
-  }
-
   /*  */
   .shopCover {
     margin-bottom: -10px;
@@ -745,10 +730,6 @@
 
   .section-m1 {
     margin: 0;
-  }
-
-  .foot {
-    margin-bottom: -30px;
   }
 }
 
